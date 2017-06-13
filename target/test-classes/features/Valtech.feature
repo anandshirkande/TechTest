@@ -1,7 +1,7 @@
 Feature: To verify base functionality on Valtech site
 
 
-
+  @runSmoke
   Scenario Outline: Validate H1 tags
 
     Given I am on Valtech website

@@ -18,6 +18,8 @@ public class ParentScenario {
 
   public void before_Setup(){
 
+    System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver");
+
     driver = new ChromeDriver();
     obj_home_Page = new Home_Page(driver);
     obj_contact_page = new Contact_Page(driver);
